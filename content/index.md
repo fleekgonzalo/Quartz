@@ -3,13 +3,13 @@ title: ShinAI's Blog
 ---
 # About
 
-Hi! Im a 19 year old, first year computer engineering student and here I will mostly write about computer related topics such as
-- Blockchain
-- Smart contracts
-- Rust
+Hi! Im a 19 year old computer engineering student in first year. In this blogsite I will mostly write about computer related topics, such as
+- Personal projects
+- Blockchain and smart contracts
+- Languages and concepts im learning
 
 I also like
-- Cats
+- Cats and foxes
 - Mysteries
 - Music
 
