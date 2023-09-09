@@ -7,6 +7,7 @@ This website template was made to be used with the [Obsidian](https://obsidian.m
 
 To use this website template for your own blogsite use their [GitHub](https://github.com/jackyzha0/quartz) repository as the template for your own and follow the official [Quartz](https://quartz.jzhao.xyz/) documentation.
 
+
 # Requirements
 
 - Installed git
@@ -51,15 +52,22 @@ If everything works correctly your website should be up and running and accessib
 
 # Customization
 
-Changing the icon:
+Changing the website icon:
 - Go into quartz/quartz/static
 - Inside you will find two files, icon.png and og-image.png
 - Replace these two files with your preferred icon, which need to use the same names as the previous files
 *Note: you might need to hard reset your browser for the new icon to show up*
 
-Changing the name:
+Changing the website name:
 - Go into quartz/quartz.config.ts
 - Find `pageTitle` and change its value
 - Also change `baseUrl` with your domain
 
-Content folder:
+
+# Content Folder
+
+Inside the `content` folder you will find a file named ``index.md``. This is the home page for your website.
+
+You could just start creating posts inside the `content` folder, but if youre going to use images it might get messy very quickly. To fix this you can make a new folder inside `content` for each new post. Then inside create a new `post.md` file.
+
+To make your posts appear in your home page you need to link to them by using double brackets like `[[post-folder/post.md]]` if you use folders as I recommended.
