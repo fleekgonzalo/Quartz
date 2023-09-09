@@ -14,21 +14,22 @@ The main objectives of this project are:
 - Owning a private node that can be useful for smart contract development
 - Helping decentralize the Ethereum network
 
+Reads:
+- [Spin up your own Ethereum node | ethereum.org](https://ethereum.org/en/developers/docs/nodes-and-clients/run-a-node/)
+- [Nodes and clients | ethereum.org](https://ethereum.org/en/developers/docs/nodes-and-clients/)
+
 # Choosing the Hardware
 
 It is not a good idea to run a node in your main computer. This is because running a node is fairly resource intensive and will cripple your main computers performance.
 
-Some choose to run a node in hosting services like AWS. We wont be doing this because:
+Some choose to run a node in a VPS service like AWS. We wont be doing this because:
 - It is not self-sovereign, meaning that we are not in control of our own node.
-- We would contribute to Ethereums centralization, because a lot of nodes are already set up in hosting services. (citation needed)
+- It contributes to Ethereums centralization, because a lot of nodes are already set up in VPS services. (citation needed)
 
 I have found two good options to run a node, with their own advantages and drawdowns:
-- Single Board Computers, like a Raspberry Pi.
-	- ![raspbery-pi](raspberry-pi.png)
-	- Pros:
-		- Low powered computers
-		- Around the size of a credit card
+- Single Board Computers, like a [Raspberry Pi](https://www.raspberrypi.com/).
+- Tiny computers, like an [HP EliteDesk 800 G3 Mini](https://support.hp.com/us-en/document/c05371240).
 
-- Tiny computers, like an EliteDesk mini.
-	- ![elitedesk-mini](elitedesk-mini.png)
-	- 
+There are multiple pros and cons between these two options, but it ultimately boils down to SBCs being smaller and more power efficient, while mini computers are more powerful, upgradeable and easier to keep many of them stacked on top of the other.
+
+
