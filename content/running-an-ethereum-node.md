@@ -1,9 +1,8 @@
 ---
-title: Running an Ethereum Node
+title: "Running an Ethereum Node: a Comprehensive Guide"
 draft: false
 tags:
   - blockchain
-date: YYYY-MM-DD
 ---
 This guide will walk you through the entire process of choosing hardware, setting up your node and operating it.
 

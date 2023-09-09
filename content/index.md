@@ -14,5 +14,5 @@ I also like
 - Music
 
 # Posts
-- [[running-an-ethereum-node-with-a-raspberry-pi|Running an Ethereum node with a Raspberry Pi]]
-- [[running-an-ethereum-node/index|Running an Ethereum Node]]
+- 
+- [[running-an-ethereum-node|Running an Ethereum Node]]
