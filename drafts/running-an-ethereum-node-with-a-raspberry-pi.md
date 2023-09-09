@@ -1,6 +1,6 @@
 ---
 title: Running an Ethereum node with a Raspberry Pi
-draft: 
+draft: true
 tags:
   - post
 date: YYYY-MM-DD
