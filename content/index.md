@@ -18,3 +18,4 @@ If you're interested in the template used to create this page theres a link to i
 
 # Posts
 - [[running-an-ethereum-node/post|Running an Ethereum Node: A Comprehensive Guide]]
+- [[set-up-this-website/post|Set up this Website]]
