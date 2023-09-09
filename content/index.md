@@ -1,5 +1,5 @@
 ---
-title: ShinAI's Blog
+title: Home
 ---
 # About
 
