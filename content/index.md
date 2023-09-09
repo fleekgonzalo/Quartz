@@ -7,4 +7,4 @@ Hi, im a computer science student. Interested in blockchain, smart contracts and
 
 # Posts
 - [[running-an-ethereum-node-with-a-raspberry-pi|Running an Ethereum node with a Raspberry Pi]]
-- [[content/running-an-ethereum-node|Running an Ethereum Node]]
+- [[content/running-an-ethereum-node/post|Running an Ethereum Node]]
