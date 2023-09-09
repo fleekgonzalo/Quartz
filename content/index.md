@@ -6,4 +6,4 @@ title: ShinAI's Blog
 Hi, im a computer science student. Interested in blockchain, smart contracts and learning Rust.
 
 # Posts
-- [[test|Test]]
+- [[set-up-this-webpage|Set Up This Webpage]]
