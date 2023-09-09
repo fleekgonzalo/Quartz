@@ -13,5 +13,7 @@ I also like
 - Mysteries
 - Music
 
+If you're interested in the template used to create this page theres a link to its documentation at the bottom of this page.
+
 # Posts
-- [[content/running-an-ethereum-node/post|Running an Ethereum Node]]
+- [[running-an-ethereum-node/post|Running an Ethereum Node]]
