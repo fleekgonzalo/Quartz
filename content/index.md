@@ -3,7 +3,7 @@ title: Home
 ---
 # About
 
-Hi! Im a 19 year old computer engineering student in first year. In this blogsite I will mostly write about computer related topics, such as
+Hi! Im a 19 year old computer engineering student in first year. In this blogsite I will mostly write about computer science related topics, such as
 - Personal projects
 - Blockchain and smart contracts
 - Languages and concepts im learning
