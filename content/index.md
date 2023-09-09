@@ -14,5 +14,4 @@ I also like
 - Music
 
 # Posts
-- 
-- [[running-an-ethereum-node|Running an Ethereum Node]]
+- [[content/running-an-ethereum-node/post|Running an Ethereum Node]]
