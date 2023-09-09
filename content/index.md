@@ -1,7 +1,7 @@
 ---
 title: Home
 ---
-![[content/icon.png]]
+![[icon.png]]
 # About
 
 Hi! Im a 19 year old computer engineering student in first year. In this blogsite I will mostly write about computer science related topics, such as
