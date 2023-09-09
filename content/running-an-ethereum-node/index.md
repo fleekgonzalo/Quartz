@@ -2,7 +2,7 @@
 title: Running an Ethereum Node
 draft: false
 tags:
-  - draft
+  - blockchain
 date: YYYY-MM-DD
 ---
 This guide will walk you through the entire process of choosing hardware, setting up your node and operating it.
@@ -30,7 +30,6 @@ I have found two good options to run a node, with their own advantages and drawd
 		- Low powered computers
 		- Around the size of a credit card
 
-
 - Tiny computers, like an EliteDesk mini.
 	- ![elitedesk-mini](elitedesk-mini.png)
-
+	- d
