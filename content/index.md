@@ -1,12 +1,13 @@
 ---
 title: Home
 ---
+![[content/icon.png]]
 # About
 
 Hi! Im a 19 year old computer engineering student in first year. In this blogsite I will mostly write about computer science related topics, such as
 - Personal projects
 - Blockchain and smart contracts
-- Languages and concepts im learning
+- Programming languages and concepts im learning
 
 I also like
 - Cats and foxes
