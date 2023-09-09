@@ -2,4 +2,4 @@
 title: Test
 ---
 
-Test
+Test.
