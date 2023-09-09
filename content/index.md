@@ -6,4 +6,4 @@ title: ShinAI's Blog
 Hi, im a computer science student. Interested in blockchain, smart contracts and learning Rust.
 
 # Posts
-- [[set-up-this-webpage|Set Up This Webpage]]
+- [[running-an-ethereum-node-with-a-raspberry-pi|Running an Ethereum node with a Raspberry Pi]]
