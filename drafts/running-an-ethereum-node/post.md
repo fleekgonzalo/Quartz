@@ -1,5 +1,5 @@
 ---
-title: "Running an Ethereum Node: A Comprehensive Guide"
+title: Running an Ethereum node in a Raspberry Pi
 draft: false
 tags:
   - ethereum

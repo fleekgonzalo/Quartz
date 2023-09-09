@@ -1,17 +1,32 @@
 ---
 title: Running an Ethereum node with a Raspberry Pi
-draft: true
+draft: false
 tags:
-  - post
+  - ethereum
 date: YYYY-MM-DD
 ---
+This guide will walk you through the entire process of setting up and operating an ethereum node using a Raspberry Pi 4 model B, though the process is fairly similar for other brands of Single Board Computers.
+
+This project is recommended for learning purposes since theres not a financial incentive for running a node by itself.
+
+The main objectives of this project are:
+- Learn what are nodes and how they work
+- Learn how to set up and operate an Ethereum node
+- Have a private node that can be useful for smart contract development
+- Help decentralize the Ethereum network
+
+Reads:
+- [Spin up your own Ethereum node | ethereum.org](https://ethereum.org/en/developers/docs/nodes-and-clients/run-a-node/)
+- [Nodes and clients | ethereum.org](https://ethereum.org/en/developers/docs/nodes-and-clients/)
+
+
 ## What is a node?
 
 Nodes are the foundation of Ethereum, or any other Layer 1 cryptocurrency such as Bitcoin. A regular personal computer becomes a node when it runs a software client that connects it to the network of nodes and performs some tasks:
 
 - Storing a copy of the blockchain.
 - Receiving transactions from an account or from other peer nodes.
-- Verifying received transaction signatures and other criteria such as enough existing balance to fulfill a transaction.
+- Verifying received transaction signatures and other criteria such as enough existing balance to fulfill the transaction.
 - Storing valid transactions in the memory pool.
 - Propagating valid transactions.
 
@@ -22,30 +37,25 @@ If the node in question is a validator node, then it also performs the tasks of:
 
 A validator node can be set up if the node operator stakes 32 ETH. The node operator will be rewarded with staking rewards for every proposed block. However, if the validator misbehaves, it might be slashed, causing the loss of staked funds.
 
+# Why Raspberry Pi?
 
-Running an Ethereum node is fairly resource intensive, more than what is ideal. This will change with future updates, but in the mean time we need to make do. At this moment, running a node in your personal computer is not a good idea.
+It is not a good idea to run a node in your main computer. Running a node is fairly resource intensive and will cripple your main computers performance.
 
-This is why I decided to try running an ethereum node in a Single Board Computer. SBCs are computers the size of a credit card, and there are many who are powerful enough to run an Ethereum node.
+Some choose to run a node in a VPS service like AWS. We wont be doing this because:
+- It is not self-sovereign, meaning that we are not in control of our own node.
+- It contributes to Ethereums centralization, because a lot of nodes are already set up in VPS services. (citation needed)
+
+I have found two good options to run a node, with their own advantages and drawdowns:
+- Single Board Computers, like a [Raspberry Pi](https://www.raspberrypi.com/).
+- Tiny computers, like an [HP EliteDesk 800 G3 Mini](https://support.hp.com/us-en/document/c05371240).
+
+There are multiple pros and cons between these two options, but it ultimately boils down to SBCs being smaller and more power efficient, while mini computers are more powerful, upgradeable and easier to keep many of them stacked on top of the other.
 
 The [Ethereum on ARM](https://ethereum-on-arm-documentation.readthedocs.io/en/latest/index.html#) project has created system images for many different SBC brands. They also have a complete guide on how to set up and run your node, which you should follow along.
 
-
-
-## Choosing an SBC
-
-I chose to buy a Raspberry Pi 4 model B because it is the most popular brand and im not very computer savy, so if I need any help there will be many tutorials to resort to.
-
-I don't think the brand is really important, and if I could go back I might've gotten a Radxa Rock 5B with 16 gb of RAM (the Raspberry only goes up to 8 gb).
-
-Maybe even something like a small desktop computer like a Elitedesk 800 G2.
-
-The only reason I picked the Raspberry Pi over the previously mentioned options is because I will use it in many other projects other than an Ethereum node.
-
-
-## Other hardware
+## Hardware
 
 You will need:
-
 - Raspberry Pi 4 model B
 - MicroSD Card (16 GB Class 10 minimum)
 - 2 TB SSD
@@ -53,25 +63,21 @@ You will need:
 - Ethernet cable
 - Case with heatsink and fan
 
-For most SBCs storage you will need a 2 TB M.2 NVMe SSD. For the Raspberry Pi however, you will need a USB 3.0 disk or a SSD with an USB to SATA case.
+For most SBCs storage you will need a 2 TB M.2 NVMe SSD. For the Raspberry Pi however, you will need a USB 3.0 disk or a M.2 SATA SSD with an USB to SATA case.
 
 I ended up going for a WD Blue 2TB M.2 SATA SSD (important to note that the SSD needs to be SATA and not NVMe).
 
-The best case I found is the Argon ONE M.2, which has SATA to USB adapter, heatsink and fan. Thanks to this case both the SBC and SSD can be inside of a case, instead of the SSD laying around the computer. Here is a [video](https://www.youtube.com/watch?v=62FfPT38obo) guide for the Argon ONE M.2 setup.
+The best case I found is the Argon ONE M.2, which has a SATA to USB adapter, heatsink and fan. Thanks to this case both the SBC and SSD can be inside of a case, instead of the SSD hanging outside the computer. Here is a [video](https://www.youtube.com/watch?v=62FfPT38obo) guide for the Argon ONE M.2 setup.
 
 As for the other required hardware is not very complicated. I would recommend to get the official power supply to not have problems with the voltage.
 
 
+# Initial setup
 
-## Initial setup
-
-First go to Ethereum on ARM's docs and download the Raspberry Pi image.
-
-Flash it to your MicroSD using [Etcher](https://etcher.balena.io/).
-
-Insert your MicroSD into your Raspberry.
-
-Plug the ethernet cable and power supply in.
+1. Go to Ethereum on ARM's documentation and download the Raspberry Pi image.
+2. Flash it to your MicroSD using [Etcher](https://etcher.balena.io/).
+3. Insert your MicroSD into your Raspberry.
+4. Plug the ethernet cable and power supply in.
 
 Before continuing, you will need to change some settings of your router.
 

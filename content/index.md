@@ -17,5 +17,5 @@ I also like
 If you're interested in the template used to create this page theres a link to its documentation at the bottom of this page.
 
 # Posts
-- [[running-an-ethereum-node/post|Running an Ethereum Node: A Comprehensive Guide]]
+- [[ethereum-node-raspberry-pi/post|Running an Ethereum node in a Raspberry Pi]]
 - [[set-up-this-website/post|Set up this Website]]
