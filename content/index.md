@@ -15,4 +15,4 @@ I also like
 
 # Posts
 - [[running-an-ethereum-node-with-a-raspberry-pi|Running an Ethereum node with a Raspberry Pi]]
-- [[content/running-an-ethereum-node/index|Running an Ethereum Node]]
+- [[running-an-ethereum-node/index|Running an Ethereum Node]]
