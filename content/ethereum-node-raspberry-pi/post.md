@@ -115,12 +115,13 @@ Then you will be forced to change the default password to a new one, do so.
 
 You should now be greeted by a screen that reads your computers specifications. Now we need to start setting up some things.
 
-Run:
-
+General updates:
 > sudo apt upgrade
 
+Argon ONE fan script:
 > curl https://download.argon40.com/argon1.sh | bash
 
+Installing the client softwares:
 > sudo apt-get -y install geth nethermind erigon besu prysm lighthouse nimbus teku
 
 Now we are ready to set up our Consensus and Execution clients.
