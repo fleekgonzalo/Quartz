@@ -20,9 +20,4 @@ If you're interested in the template used to create this page theres a link to i
 - [storing your digital assets securely](storing-digital-assets-securely/post.md)
 - [[..ethereum-node-raspberry-pi/post/|Running an Ethereum node with a Raspberry Pi]]
 - [[.ethereum-node-raspberry-pi/post.md|Running an Ethereum node with a Raspberry Pi]]
-- [[.ethereum-node-raspberry-pi/post|Running an Ethereum node with a Raspberry Pi]]
-- [[..ethereum-node-raspberry-pi/post.md|Running an Ethereum node with a Raspberry Pi]]
-- [[./set-up-this-website/post/|Set up this Website]]
-- [[..set-up-this-website/post/|Set up this Website]]
-- [[set-up-this-website/post/|Set up this Website]]
-- [storing your digital assets securely](storing-digital-assets-securely/post.md)
+
