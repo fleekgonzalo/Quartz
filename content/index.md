@@ -17,5 +17,6 @@ I also like
 If you're interested in the template used to create this page theres a link to its documentation at the bottom of this page.
 
 # Posts
+- [[content/storing-digital-assets-securely/post|Storing your Digital Assets Securely]]
 - [[ethereum-node-raspberry-pi/post|Running an Ethereum node with a Raspberry Pi]]
 - [[set-up-this-website/post|Set up this Website]]
