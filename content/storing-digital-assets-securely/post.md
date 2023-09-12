@@ -107,7 +107,7 @@ Keep a low profile.
 
 All of these put you physically at [risk](https://www.mirror.co.uk/news/us-news/mising-crypto-king-found-chopped-30707060).
 
-## Practice
+# Practice
 
 The best way to become confident managing your cryptocurrency is by having on hands experience. You may have studied so much about driving but until you get your hands on the steering wheel you don't know how it truly is.
 
