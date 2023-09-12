@@ -6,11 +6,11 @@ date: YYYY-MM-DD
 ---
 When you lose access to your bank account you can simply request a password change, but cryptocurrency is ruled by code and cryptography alone, meaning there is no such thing as customer support.
 
-In this blogpost we will learn:
-- what is public key cryptography
-- what wallet programs do under the hood
-- risk modeling
-- common threats
+In this blogpost you will learn:
+- What is public key cryptography
+- What wallet programs do under the hood
+- Risk modeling
+- Common threats
 
 # Introductory Concepts
 
@@ -68,7 +68,7 @@ To clarify, there are many people that hold large portfolios in software wallets
 *Note: Using cold storage doesn’t mean that you cant lose your funds in any way. If you click a sketchy link and sign a transaction with your hardware wallet that drains you it doesn’t matter what type of wallet youre using, you’re going to lose your funds.*
 
 
-# Seed Phrase Management
+# Storing your Seed Phrase
 
 As previously said, your seed phrase derives all of your private keys (aka, all your accounts). Needless to say, it's indispensable to keep a copy of your seed phrase in a secure location in case you lose access to your wallet so you can restore it, and this copy needs to be stored securely.
 
@@ -76,6 +76,8 @@ There are many ways to store your seed phrase.
 
 - You can write down the words in a piece of paper and store it somewhere safe, like a home safe or even a safe deposit box.
 - You can also store it digitally inside an encrypted file, like that of a password manager.
+
+Contrary to what many cryptocurrency users say, saving your seed phrase digitally *can* be a good idea. This depends on your own personal situation, but for example I would save my seed phrase digitally if I lived in a conflictive household where I didn't trust a family member finding and stealing a piece of paper with my seed phrase written on it. 
 
 You can also make multiple copies, and for example store one home and one in a safe deposit box in case the other is lost. Come up with your own system based on your situation, available tools and risk model.
 
@@ -145,7 +147,3 @@ Trezor devices are completely open source: the hardware, the firmware and Trezor
 If you have an old phone you don't use laying around you can also try [AirGap](https://airgap.it/), which effectively turns your phone into a hardware wallet (but rendering it useless for any other purpose since it can't be connected to the internet as stated earlier).
 
 For most people I recommend the Trezor One.
-
-
-
-// risk modeling
