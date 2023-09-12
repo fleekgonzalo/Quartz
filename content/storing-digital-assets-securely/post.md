@@ -6,20 +6,26 @@ date: YYYY-MM-DD
 ---
 When you lose access to your bank account you can simply request a password change, but cryptocurrency is ruled by code and cryptography alone, meaning there is no such thing as customer support.
 
-Learning how keys and wallets work will make your security better and your experience managing your assets much less stressful. We'll cover how cryptocurrency storage works and the best practices to secure your digital assets.
+In this blogpost we will learn:
+- what is public key cryptography
+- what wallet programs do under the hood
+- risk modeling
+- common threats
 
 # Introductory Concepts
+
+## Public-key/asymmetric cryptography
 
 Lets first define what "storage" means in the context of cryptocurrency.
 
 Because crypto is ruled by cryptography and not human law, the only thing that determines the owner of a cryptocurrency account is the ownership of its private/secret key.
 
-A SK is a string of numbers that alows you to cryptographically sign transactions. This means that whoever knows this number will be able to spend all of the accounts balance, regardless of who the "legitimate" owner of the account is.
+A private key is a string of numbers that alows you to cryptographically sign transactions. This means that whoever knows this number will be able to spend all of the accounts balance, regardless of who the "legitimate" owner of the account is.
 
 Example of a Private Key:
 >107435187097287799521563287142577638987497617375775444773171446784043234144519
 
-Private Keys also have the task of deriving Public Keys.
+Private Keys also have the task of deriving Public Keys. Public Keys are like an address where you can send transactions to.
 
 Example of the Public Key pair of the previous Private Key:
 >0424c0c77337959e372042125a9907872dccdc7c5e3ca784c846a99f8cbe09c220d2383fa661f3de10d433a8397155a68c20540ae3bcb39368ebf8a3d26187f34a
@@ -32,7 +38,7 @@ Your public key is like your bank account's IBAN number or your Paypal username 
 
 When talking about storing cryptocurrency, we are actually talking about the safekeeping of the seed phrase and/or private keys.
 
-# Wallets
+## Wallets
 
 A wallet is a computer program that handles your private keys and lets you interact with them via a user interface. Under the hood, wallets do things like 
 
@@ -62,7 +68,7 @@ To clarify, there are many people that hold large portfolios in software wallets
 *Note: Using cold storage doesn’t mean that you cant lose your funds in any way. If you click a sketchy link and sign a transaction with your hardware wallet that drains you it doesn’t matter what type of wallet youre using, you’re going to lose your funds.*
 
 
-## Seed Phrase Management
+# Seed Phrase Management
 
 As previously said, your seed phrase derives all of your private keys (aka, all your accounts). Needless to say, it's indispensable to keep a copy of your seed phrase in a secure location in case you lose access to your wallet so you can restore it, and this copy needs to be stored securely.
 
@@ -78,7 +84,7 @@ You can also make multiple copies, and for example store one home and one in a s
 
 Contrary to popular belief, most attacks to personal cryptocurrency portfolios arent done by a genius hacker in a black hoodie that cracks your wallet password or keylogs your computer. More often than not users lose their funds by falling for scams or practicing bad operational security.
 
-### Phishing Scams
+## Phishing Scams
 
 The easiest way to lose your crypto is falling for phishing scams. Look out for things like:
 
@@ -87,7 +93,7 @@ The easiest way to lose your crypto is falling for phishing scams. Look out for 
 - DMs from people you don't know asking for help or offering to help you.
 - Etc.
 
-### The $5 wrench attack
+## Physical Attacks
 
 ![5 Dollar Wrench Attack](./5-dollar-wrench-attack.png)
 
@@ -97,7 +103,7 @@ Keep a low profile.
 - Dont talk about crypto with people that know your real identity.
 - Dont brag about the money you have or have made in crypto.
 
-Any and all of these put you physically at [risk](https://www.mirror.co.uk/news/us-news/mising-crypto-king-found-chopped-30707060).
+All of these put you physically at [risk](https://www.mirror.co.uk/news/us-news/mising-crypto-king-found-chopped-30707060).
 
 ## Practice
 
@@ -112,23 +118,23 @@ Here are some practice exercices you can do without using real funds.
 
 **Actions**:
 - Make new accounts inside your wallet. Remember that a seed phrase can generate multiple SK/PK pairs.
-- Identify your private key/keys and your public key/keys within your wallet. Copy and paste them into your password manager or textfile and label every item correctly (seed phrase, private key and public key).
+- Identify your private key/s and your public key/s within your wallet. Copy and paste them into your password manager or textfile and label every item correctly (seed phrase, private key and public key).
 - Uninstall and reinstall your wallet and restore your accounts using your seed phrase.
 - Uninstall and reinstall your wallet and restore only one account using one of your private keys.
-- Uninstall your wallet and restore your accounts using your seed phrase in a different wallet, like Frame or Rabby.
+- Uninstall your wallet and restore your accounts using your seed phrase in a different wallet program.
 - Make a new wallet and send funds back and forth from the original wallet to the new wallet.
 
 You can repeat these exercises and jump from one to another until you feel comfortable.
 
 # Wallet recommendations
 
-**Hardware Wallets**
+**Software Wallets**
 
 For a Bitcoin wallet use Electrum or Wasabi.
 For an Ethereum wallet use Rabby or Frame.
 
 
-**Software Wallets**
+**Hardware Wallets**
 
 The two most popular hardware wallet brands are Ledger and Trezor.
 
