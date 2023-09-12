@@ -9,8 +9,9 @@ When you lose access to your bank account you can simply request a password chan
 In this blogpost you will learn:
 - What is public key cryptography
 - What wallet programs do under the hood
-- Risk modeling
+- Storing our seed phrase
 - Common threats
+- Practice exercises
 
 # Introductory Concepts
 
