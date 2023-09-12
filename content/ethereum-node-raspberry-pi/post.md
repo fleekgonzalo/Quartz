@@ -5,7 +5,7 @@ tags:
   - ethereum
 date: YYYY-MM-DD
 ---
-This guide will walk you through the entire process of setting up and operating an ethereum node using a Raspberry Pi 4 model B, though the process is fairly similar for other brands of Single Board Computers.
+This guide will walk you through the entire process of setting up and operating an ethereum node using a Raspberry Pi 4 model B 8gb, though the process is fairly similar for other brands of Single Board Computers.
 
 This project is recommended for learning purposes since theres not a financial incentive for running a node by itself.
 
@@ -15,7 +15,7 @@ The main objectives of this project are:
 - Have a private node that can be useful for smart contract development
 - Help decentralize the Ethereum network
 
-Reads:
+Related readings:
 - [Spin up your own Ethereum node | ethereum.org](https://ethereum.org/en/developers/docs/nodes-and-clients/run-a-node/)
 - [Nodes and clients | ethereum.org](https://ethereum.org/en/developers/docs/nodes-and-clients/)
 

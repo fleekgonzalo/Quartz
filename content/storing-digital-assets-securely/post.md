@@ -1,11 +1,10 @@
 ---
 title: Storing your Digital Assets Securely
 draft: 
-tags:
-  - post
+tags: []
 date: YYYY-MM-DD
 ---
-The correct storage of digital assets is extremely important. When you lose access to your bank account you can simply request a password change, but cryptocurrency is ruled by code and cryptography alone, meaning there is no such thing as customer support.
+When you lose access to your bank account you can simply request a password change, but cryptocurrency is ruled by code and cryptography alone, meaning there is no such thing as customer support.
 
 Learning how keys and wallets work will make your security better and your experience managing your assets much less stressful. We'll cover how cryptocurrency storage works and the best practices to secure your digital assets.
 
@@ -25,7 +24,7 @@ Private Keys also have the task of deriving Public Keys.
 Example of the Public Key pair of the previous Private Key:
 >0424c0c77337959e372042125a9907872dccdc7c5e3ca784c846a99f8cbe09c220d2383fa661f3de10d433a8397155a68c20540ae3bcb39368ebf8a3d26187f34a
 
-Generally, when making a cryptocurrency account, you will be given a randomly generated seed/recovery/mnemonic phrase. This phrase is made up of 12 or 24 random words from the english dictionary and derives (gives access to) many private keys (or many accounts).
+Generally, when making a cryptocurrency account, you will be given a randomly generated seed/recovery/mnemonic phrase. This phrase is made up of 12 or 24 random words from the english dictionary and derives (gives access to) many private keys (many accounts).
 
 ![Key Generation](./key-generation.drawio.png)
 
@@ -46,7 +45,7 @@ A wallet is a computer program that handles your private keys and lets you inter
 
 When we talk about wallets we are referring to non-custodial wallets. Custodial wallets are the wallets you have within exchange accounts, like Binance or Coinbase. If you have never had to write 12 or 24 words down, you're most likely using a custodial wallet.
 
-Non-custodial wallets can generally be divided in two groups: software wallets and hardware wallets. Software wallets store your private keys in your computer or web browser, while hardware wallets are small independent physical devices that store your private keys and have the only function of signing transactions without exposing your private keys to the internet.
+Non-custodial wallets can generally be divided in two groups: software wallets and hardware wallets. Software wallets store your private keys in your computer or web browser, while hardware wallets are small independent physical devices that hold your private keys and have the only function of signing transactions without exposing your private keys to the internet.
 
 Lets see an example of how cold wallets work:
 - user connects hardware wallet to software wallet
@@ -60,7 +59,7 @@ Hardware wallets offer more security in exchange for convenience (and the cost o
 
 To clarify, there are many people that hold large portfolios in software wallets and are doing perfectly fine, but if you are not very computer savy and/or want to sleep better at night you may want to consider a cold wallet.
 
-*Note: Using cold storage doesn’t mean that you cant lose your funds in any way. If you click a sketchy link and sign a transaction with your hardware wallet that drains your wallet it doesn’t matter what type of wallet you use, you’re going to lose your funds.*
+*Note: Using cold storage doesn’t mean that you cant lose your funds in any way. If you click a sketchy link and sign a transaction with your hardware wallet that drains you it doesn’t matter what type of wallet youre using, you’re going to lose your funds.*
 
 
 ## Seed Phrase Management
@@ -102,7 +101,7 @@ Any and all of these put you physically at [risk](https://www.mirror.co.uk/news/
 
 ## Practice
 
-The best way to become confident managing your cryptocurrency is by having on hands experience. You may have studied so much about driving but until you get the hands on the steering wheel you don't know how it truly is.
+The best way to become confident managing your cryptocurrency is by having on hands experience. You may have studied so much about driving but until you get your hands on the steering wheel you don't know how it truly is.
 
 Here are some practice exercices you can do without using real funds.
 
@@ -121,7 +120,15 @@ Here are some practice exercices you can do without using real funds.
 
 You can repeat these exercises and jump from one to another until you feel comfortable.
 
-# Cold Wallet recommendations
+# Wallet recommendations
+
+**Hardware Wallets**
+
+For a Bitcoin wallet use Electrum or Wasabi.
+For an Ethereum wallet use Rabby or Frame.
+
+
+**Software Wallets**
 
 The two most popular hardware wallet brands are Ledger and Trezor.
 
